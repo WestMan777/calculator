@@ -3,3 +3,57 @@
     padding: 0px;
     display: flex;
 }
+
+#calculator-container {
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 6px;
+}
+
+#viewport-container {
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 120px;
+    border: 2px solid black;
+
+    background-color: grey;
+}
+
+#viewport {
+    width: 200px;
+    height: 60px;
+
+    background-color: white;
+
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#buttons-container {
+    background-color: grey;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.row {
+    height: 70px;
+    width: 230px;
+
+    gap: 5px;
+}
+
+.button {
+    background-color: white;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+
+    font-size: 15px;
+    font-weight: bold;
+}
