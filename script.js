@@ -1,24 +1,45 @@
-const viewport = document.querySelector('viewport');
+const viewport = document.querySelector('viewport');                                                //query selectors for all buttons and the viewport
+
+const allButtons = document.getElementsByClassName('button');
 
 const divideButton = document.querySelector('divide-button');
-const multiplyButton = documnet.querySelector('multiply-button');
-const plusButton = documnet.querySelector('plus-button');
-const minusButton = documnet.querySelector('minus-button');
-const clearButton = documnet.querySelector('clear-button');
-const equalsButton = documnet.querySelector('equals-button');
-const negativeButton = documnet.querySelector('negative-button');
+const multiplyButton = document.querySelector('multiply-button');
+const plusButton = document.querySelector('plus-button');
+const minusButton = document.querySelector('minus-button');
+const clearButton = document.querySelector('clear-button');
+const equalsButton = document.querySelector('equals-button');
+const negativeButton = document.querySelector('negative-button');
 
 const leftParenthesesButton = document.querySelector('left-parentheses-button');
 const rightParenthesesButton = document.querySelector('right-parentheses-button');
 
-const oneButton = documnet.querySelector('one-button');
-const twoButton = documnet.querySelector('two-button');
-const threeButton = documnet.querySelector('three-button');
-const fourButton = documnet.querySelector('four-button');
-const fiveButton = documnet.querySelector('five-button');
-const sixButton = documnet.querySelector('six-button');
-const sevenButton = documnet.querySelector('seven-button');
-const eightButton = documnet.querySelector('eight-button');
-const nineButton = documnet.querySelector('nine-button');
-const zeroButton = documnet.querySelector('zero-button');
+const oneButton = document.querySelector('one-button');
+const twoButton = document.querySelector('two-button');
+const threeButton = document.querySelector('three-button');
+const fourButton = document.querySelector('four-button');
+const fiveButton = document.querySelector('five-button');
+const sixButton = document.querySelector('six-button');
+const sevenButton = document.querySelector('seven-button');
+const eightButton = document.querySelector('eight-button');
+const nineButton = document.querySelector('nine-button');
+const zeroButton = document.querySelector('zero-button');
 
+function add(){                                                                                     // Basic math functions
+
+}
+
+function subtract(){
+
+}
+
+function multiply(){
+
+}
+
+function divide(){
+
+}
+
+let currentEquation = {
+    equation: 'enter equation',
+};
