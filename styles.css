@@ -4,7 +4,16 @@
     display: flex;
 }
 
+#main-container {
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 10px);
+    width: calc(100vw - 10px);
+}
+
 #calculator-container {
+
+
     flex-direction: column;
     justify-content: center;
     border: 5px solid black;
