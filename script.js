@@ -480,8 +480,6 @@ function sortCurrentParenthese(){
 
     currentParenthese.equation = problem;
     refreshViewport();
-
-    //console.log('after sorted parentheses: -->   ' + problem);
 }
 
 function refreshViewport(){                                                     // refreshes the viewport with the current equation
@@ -492,7 +490,7 @@ for(var i = 0; i < allButtons.length; i++){                                     
     let button = allButtons[i];
 
     button.addEventListener('click', function(){
-        //console.log(currentEquation.equation);
+        console.log(currentEquation.equation);
     });    
 }
 
