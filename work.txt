@@ -1,0 +1,53 @@
+list --> (contains current equation)
+
+[user input] --> [equation list]
+
+  * create a sorting algorithm?
+
+
+
+
+[input number] --> [appends "currentEquation.currentNumber"]
+
+[input symbol] --> [push number --> equation] --> [push symbol --> equation] --> [clears currnet number]
+
+NEEDS A SOLVING ORDER FOR NEXT PART
+
+[input left parentheses] --> [put a marker in "currentEquation" list] --> [start input to "currentParethese" list] --> 
+[records equation to var 'paraEquation#'] --> [equation is to be solved BEFORE main equation] --> 
+[Input right parentheses] --> [begin recording back to "currentEquation"]
+
+
+the marker could be something like p1, p2, p3, ect...
+
+
+
+[input SOLVE] --> [Sorting function finds if there are parenteses equations] -->
+[looks for if there is a number before or a symbol] --> [solves the parentheses] --> 
+[multiplies solution by number outside of parenteses] --> [replaces symbol with desegnated solution] -->
+[solve the equation like normal]
+
+
+
+11/3/2024
+
+made it so that the object foir parentheses has a use and worked on making the solve and sort parenthese functions work alongside the normal 
+sort and solve functions... having alot of trouble getting the sort function for the parentheses to actually work
+
+11/4/2024
+
+got the function for the right parenthese to actually work and store the equation into the allEquations array.
+it doesent seem to be sorting the allEquations array in the way that i need it to so it never ends up solving anything.
+
+11/8/2024
+
+Finally got the sortParentheses function to work by changing the parenthesesCountervarriably at line 49 from 0 to -1 so that it would actually be
+sorting the right thing and not have any errors.
+
+got the sorting shit to work and successfully sort and solve the equations and whenever it comes across a left parenthese
+it 
+
+for some reason now whenever it has the left parenthese symbol in the currentEquation.equation array it adds a space before the parenthese
+
+thoughts...
+
